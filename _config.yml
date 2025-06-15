@@ -20,7 +20,7 @@
 
 title: Just Keep Charging
 email: jpowell@linux.com
-description: >- # Just a site for personal stuff
+description: Just a site for personal stuff
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.justkeepcharging.com"
 twitter_username: jekyllrb
