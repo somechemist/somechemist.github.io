@@ -4,7 +4,7 @@ title: "Welcome"
 permalink: /
 ---
 
-# Welcome to the War Room!
+# This Site Is Being Actively Developed
 
 This site is your hub for:
 

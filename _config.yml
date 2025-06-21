@@ -32,15 +32,51 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
 
-nav:
-  - title: "Blog"
-    url: /blog/
-  - title: "Events"
-    url: /events/
-  - title: "Downloads"
-    url: /downloads/
-  - title: "Contact"
-    url: /contact/
+# Enable Jekyll to use SCSS
+sass:
+  style: compressed
+
+
+# Mint and dark theme (JS toggle at /assets/js/theme-toggle.js
+minimal_mistakes_skin: "mint"
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+    values:
+      scripts:
+        - /assets/js/theme-toggle.js
+
+#nav:
+#  - title: "Blog"
+#    url: /blog/
+#  - title: "Events"
+#    url: /events/
+#  - title: "Downloads"
+#    url: /downloads/
+#  - title: "Contact"
+#    url: /contact/
+
+header:
+  navigation:
+    - title: "Home"
+      url: /
+    - title: "Blog"
+      url: /blog/
+    - title: "Events"
+      url: /events/
+    - title: "Downloads"
+      url: /downloads/
+    - title: "Contact"
+      url: /contact/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

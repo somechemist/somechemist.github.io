@@ -1,0 +1,13 @@
+---
+---
+
+@import "minimal-mistakes";
+
+// Allow theme switching
+[data-skin="mint"] {
+  @import "minimal-mistakes/skins/mint";
+}
+
+[data-skin="dark"] {
+  @import "minimal-mistakes/skins/dark";
+}
